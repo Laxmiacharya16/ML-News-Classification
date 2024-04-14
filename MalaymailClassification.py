@@ -114,8 +114,8 @@ current_date = datetime.now().strftime('%Y-%m-%d')
 malaymail_latest_news = malaymail_news[malaymail_news['Date'].str.startswith(current_date)]
 
 # AWS credentials
-aws_access_key = 'AKIASUYK4WETMTSWA55T'
-aws_secret_key = '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'
+aws_access_key = ''
+aws_secret_key = ''
 
 # S3 bucket details for raw data
 bucket_name_raw = 'laxmicleandata'

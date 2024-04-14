@@ -124,8 +124,8 @@ current_date = datetime.now().strftime('%Y-%m-%d')
 star_latest_news = df[df['Date'] == current_date]
 
 # AWS credentials
-aws_access_key = 'AKIASUYK4WETMTSWA55T'
-aws_secret_key = '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'
+aws_access_key = ''
+aws_secret_key = ''
 
 # S3 bucket details for raw data
 bucket_name_raw = 'laxmicleandata'
